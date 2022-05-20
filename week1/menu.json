@@ -1,0 +1,124 @@
+{
+    "menu": [
+        {
+            "appetizers": [
+                {
+                    "id-wings": "mult-sauce",
+                    "ingredients": [
+                        "lemon pepper",
+                        "Peppers",
+                        "Smoked & Seasoned",
+                        "Teriyaki"
+                    ],
+                    "decription": "Wings cooked low and slow over hickory wood"
+                },
+                {
+                    "id-soup": "Home made soup",
+                    "ingredList": [
+                        "pepper jack",
+                        "Potato Cheddar",
+                        "Potato Onion",
+                        "Turkey",
+                        "sweet potato",
+                        "Split pea",
+                        "Broccoli cheddar"
+                    ],
+                    "decription": "Made Homemade with thickened both everyday!"
+                }
+            ],
+            "cold sandwiches": [
+                {
+                    "id-Sandwich": "Turkey Provolone",
+                    "ingredList1": [
+                        "Turkey",
+                        "tomato",
+                        "Picklies",
+                        "Onions",
+                        "Mayo",
+                        "banana peppers"
+                    ],
+                    "about": "Server fresh per order!"
+                },
+                {
+                    "id-salmon": "Fresh King Salmon",
+                    "ingredientsList3": [
+                        "olives",
+                        "salmon",
+                        "onions",
+                        "Special sauce"
+                    ],
+                    "salmon-desrciption": " Fresh everyday!"
+                }
+            ],
+            "hot sandwiches": [
+                {
+                    "id-Steak": "Philly CheeseSteak",
+                    "ingredientsList4": [
+                        "olives",
+                        "steak",
+                        "onions",
+                        "banana pepers",
+                        "Provolone cheese"
+                    ],
+                    "steak-description": "CheeseSteak made hot and ready per order!"
+                },
+                {
+                    "id-Chicken": "Philly CheeseChicken",
+                    "ingredientsList5": [
+                        "Olives",
+                        "Chicken",
+                        "Onions",
+                        "Jalapeño peppers",
+                        "Red peppers ",
+                        "Provolone cheese"
+                    ],
+                    "chicken-description": "Cheese Chicken made hot and ready per order!!"
+                }
+            ],
+            "desserts": [
+                {
+                    "id-cookes": "chocolate chip",
+                    "ingredList6": [
+                        "chocolate chip",
+                        "sugar",
+                        "eggs"
+                    ],
+                    "chocolate": "Warm soft Chocolate chip Cookies "
+                },
+                {
+                    "id-Pie": "Homemade sweet potato pie",
+                    "ingredList7": [
+                        "butter",
+                        "sugar",
+                        "eggs",
+                        "Nutmeg",
+                        "Cinnamon",
+                        "vanilla extract"
+                    ],
+                    "Pie": "Sweet Potato Pie is a sweet custard pie made with cooked and mashed sweet potatoes "
+                }
+            ],
+            "drinks": [
+                {
+                    "id-iceTea": "Georgia Peach Tea",
+                    "ingredList8": [
+                        "RAW Sugar",
+                        "Peaches"
+                    ]
+                },
+                {
+                    "Peach Tea": "Peach Tea is made fresh sweet and unsweeten everyday",
+                    "id-coke": "sodaflavors",
+                    "ingredList9": [
+                        "Orange",
+                        "Slice",
+                        "Cherry",
+                        "vanilla",
+                        "Strawberry"
+                    ],
+                    "coke": "Serviced Ice cold"
+                }
+            ]
+        }
+    ]
+}
