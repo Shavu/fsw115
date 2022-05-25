@@ -1,9 +1,0 @@
-
-
-{
-    "appetizers" : ["wings", "chips"],
-    "cold sandwiches" : ["Cranberry-Walnut Chicken Salad", "Cobb Salad Sub"],
-    "hot sandwiches" : ["Philly Cheese Sandwiches", "Bistro Turkey Sandwich"],
-    "desserts" : ["Pecan chocolate bread and butter pudding", "Baked ricotta cake"],
-    "drinks" : [ "Coke", "Sprite " ]
-}
