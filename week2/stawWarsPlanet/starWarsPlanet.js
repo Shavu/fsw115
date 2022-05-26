@@ -20,9 +20,8 @@ var planets = {
 
 };
 
-var planet = document.getElementById("planet");
-planet.innerHTML = JSON.stringify(planets);
+var planetName  = document.getElementById("planetName");
+planetName.innerHTML = JSON.stringify(planets);
+        
 
-        function gfg_Run() {
-            planet.innerHTML = JSON.stringify(planets, undefined);
-        }
+
