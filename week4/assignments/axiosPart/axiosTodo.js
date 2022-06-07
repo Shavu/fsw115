@@ -21,7 +21,6 @@ axios.get("http://api.bryanuniversity.edu/travis_manners01/list/")
 
     });
 })
-
 .catch(error => console.log(error))
 
 
