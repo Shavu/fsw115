@@ -2,20 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: lightblue;
+    background-color:DodgerBlue;
 }
 h1{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    text-shadow: rgb(150, 150, 150) 1px 3px 0px, rgb(171, 168, 168) 1px 13px 5px;
+--darkreader-inline-color: #e8e6e3;
+--darkreader-inline-bgimage: initial;
+--darkreader-inline-bgcolor: #181a1b;
+    /* background-image: url("../../media/examples/lizard.png"); */
+
+
+    
+    /* font-family: ; */
     padding: 30px 40px;
-    color: #4a0e81;
+   
 }
 li,
 ol {
-    text-align: center;
+    text-align:center;
     color: #020203;
 }
-ol,
+/* ol,
 li {
     cursor: pointer;
     position: relative;
@@ -28,4 +39,4 @@ li {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
+} */

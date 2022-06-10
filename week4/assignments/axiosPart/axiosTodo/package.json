@@ -1,0 +1,16 @@
+{
+  "name": "axiostodo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "axiosTodo.js",
+  "scripts": {
+    "requirejs": "^2.3.6",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "requirejs": "^2.3.6"
+  }
+}

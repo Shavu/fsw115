@@ -3,28 +3,21 @@ axios.get("http://api.bryanuniversity.edu/travis_manners01/list/")
     result.data.forEach(function(e, i) {
         let title = document.createElement("ol");
         document.body.appendChild(title);
-
-        let description = document.createElement("li");
+        
+        let description = document.createElement("ol");
         document.body.appendChild(description);
 
         title.textContent = result.data[i].name;
         description.textContent = result.data[i].description;
-
 
         title.addEventListener('click', function() {
             title.style.textDecoration = "line-through"
         });
 
         description.addEventListener('click', function() {
-            description.style.textDecoration = "line-through"
+        description.style.textDecoration = "line-through"
         });
 
     });
 })
 .catch(error => console.log(error))
-
-
-
-
-
-    // .then(response => console.log(response))
