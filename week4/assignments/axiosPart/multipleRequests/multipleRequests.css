@@ -1,0 +1,42 @@
+/* html {
+    margin: 0;
+    background-color: #FAF0E6;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+.nav>a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: larger;
+    color: black;
+}
+.nav>a:hover {
+    text-decoration: underline;
+    color: #483D8B;
+    font-size: 2em;
+}
+.data_button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    border-radius: 5px;
+    background-color: rgb(245, 191, 174);
+    font-size: 1em;
+    padding: 5px;
+}
+.data_button:hover {
+    box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, 0.2);
+    border: 0.05em solid black;
+}
+li {
+    margin-left: 2em;
+}
+.dataElements {
+    color: #000000;
+    font-size: 1.5em;
+} */
