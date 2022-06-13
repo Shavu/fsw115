@@ -3,7 +3,7 @@
 document.getElementById("submit").addEventListener("click" , getData);
 
 function getData(){
-    console.log("clicked")
+    // console.log("clicked")
     axios.get("http://api.bryanuniversity.edu/travis_manners01/list/")
     .then(response => {
         console.log(response.data)
