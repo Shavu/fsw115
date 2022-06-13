@@ -20,3 +20,16 @@ function getData(){
     })
     .catch(error => console.log(error));
 }
+
+var mRequest =  document.createElement(div)
+mRequest.textContent = ""
+document.body.appendChild(mRequest)
+
+
+
+
+
+
+// var newP = document.createElement('p')
+// newP.textContent = 'Bryan University is AWEOMSE!'
+// document.body.appendChild(newP)
