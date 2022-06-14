@@ -1,6 +1,6 @@
 html {
     margin: 0;
-    background-color: tan;
+    background-color: #619900;
 }
 .nav {
     display: flex;
@@ -25,7 +25,7 @@ html {
     top: 50%;
     left: 75%;
     border-radius: 5px;
-    background-color: rgb(245, 191, 174);
+    background-color: #92a8d1;
     font-size: 1em;
     padding: 5px;
 }
@@ -37,6 +37,7 @@ li {
     margin-left: 2em;
 }
 .dataElements {
-    color: red;
+    color: #99432E;
     font-size: 1.5em;
 }
+
