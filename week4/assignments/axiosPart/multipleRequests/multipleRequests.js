@@ -10,7 +10,7 @@ function getData(){
         for(let i = 0; i < response.data.length; i++){
             const array = response.data[i].title;
             const div = document.createElement("li")
-            div.innerHTML = array;
+            div.textContent = array;
             document.body.appendChild(div);
             div.addEventListener("click" , function(){
                 div.style.textDecoration = "line-throught"
