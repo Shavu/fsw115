@@ -1,6 +1,6 @@
 html {
     margin: 0;
-    background-color: #FAF0E6;
+    background-color: tan;
 }
 .nav {
     display: flex;
@@ -16,7 +16,7 @@ html {
 }
 .nav>a:hover {
     text-decoration: underline;
-    color: #483D8B;
+    color: blueviolet;
     font-size: 2em;
 }
 .data_button {
@@ -37,6 +37,6 @@ li {
     margin-left: 2em;
 }
 .dataElements {
-    color: #000000;
+    color: red;
     font-size: 1.5em;
 }
