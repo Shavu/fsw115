@@ -8,7 +8,7 @@ function getData(){
     .then(response => {
         console.log(response.data)
         for(let i = 0; i < response.data.length; i++){
-            const array = response.data[i].title;
+            const array = response.data[i].description;
             const div = document.createElement("li")
             div.textContent = array;
             document.body.appendChild(div);
