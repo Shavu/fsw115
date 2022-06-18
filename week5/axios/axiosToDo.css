@@ -6,7 +6,7 @@
 
 body {
     min-height: 100vh;
-    background: lightsteelblue;
+    background: rgba(194, 214, 227, 0.8) ;
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
@@ -38,7 +38,7 @@ body {
     width: 100%;
     height: 100%;
     padding: 20px;
-    background: cornsilk;
+    background: rgba(239, 107, 169, 0.8);
     border-radius: 15px;
     box-shadow: 0 8px 16px #838282;
 }
