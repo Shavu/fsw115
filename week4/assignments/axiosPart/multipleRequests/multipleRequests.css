@@ -1,6 +1,6 @@
-/* html {
+ html {
     margin: 0;
-    background-color: #262626;
+    background-color: #611F00;
 }
 .nav {
     display: flex;
@@ -25,7 +25,7 @@
     top: 50%;
     left: 75%;
     border-radius: 5px;
-    background-color: #92a8d1;
+    background-color: rgb(255, 255, 255);
     font-size: 1em;
     padding: 5px;
 }
@@ -39,5 +39,17 @@ li {
 .dataElements {
     color: #619900;
     font-size: 1.5em;
-} */
+} 
 
+
+
+
+
+
+/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    text-shadow: rgb(150, 150, 150) 1px 3px 0px, rgb(171, 168, 168) 1px 13px 5px;
+--darkreader-inline-color: #e8e6e3;
+--darkreader-inline-bgimage: initial;
+--darkreader-inline-bgcolor: #181a1b; */
