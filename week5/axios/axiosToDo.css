@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 
+
 body {
     min-height: 100vh;
-    background: rgba(194, 214, 227, 0.8) ;
+    background: lightsteelblue;
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
 }
+
 
 .containerGrid {
     grid-template-columns: repeat(2, 1fr);
@@ -38,7 +40,7 @@ body {
     width: 100%;
     height: 100%;
     padding: 20px;
-    background: rgba(147, 148, 56, 0.8);
+    background: cornsilk;
     border-radius: 15px;
     box-shadow: 0 8px 16px #838282;
 }
@@ -95,8 +97,6 @@ li button {
     cursor: pointer;
     border-radius: 4px;
     transition: .3s;
-    color: rgba(10, 10, 10, 0.8);
+    color: white;
     
 }
-
-
