@@ -1,8 +1,15 @@
 body{
-    background-image: url(./photos/inkredo-designer-8eapp1s0knw-unsplash.jpg);
-    background-color: rgb(22, 22, 95);
-    margin-top: 2rem;
-    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+    background-image: url(./photos/cade-roberts-EpIUbeFrqwQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(13, 3, 2);
+    margin-top: 10rem;
+    font-family:Times New Roman;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    padding-left:20px;
 }
 img{
     width: 80%;
@@ -31,4 +38,8 @@ h1{
     margin: .5rem;
     padding: .5rem;
     border: .5rem;
+}
+
+footer {
+    margin-top: auto;
 }
