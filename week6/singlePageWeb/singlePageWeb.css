@@ -1,0 +1,35 @@
+body{
+    /* background-image: url('starWars.jpg'); */
+    background-image: url(./photos/inkredo-designer-8eapp1s0knw-unsplash.jpg);
+    background-color: rgb(22, 22, 95);
+    margin-top: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+img{
+    width: 80%;
+}
+div{
+    text-align: center;
+    margin: .05rem;
+    color: rgb(229, 255, 0);
+}
+h1{
+    text-align: center;
+    color: rgb(229, 255, 0);
+}
+
+#names{
+    margin: .5rem;
+    padding: .5rem;
+    border: .5rem;
+}
+#world{
+    margin: .5rem;
+    border: .5rem;
+    padding: .5rem;
+}
+#homeworld{
+    margin: .5rem;
+    padding: .5rem;
+    border: .5rem;
+}
