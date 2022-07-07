@@ -160,23 +160,23 @@ li button {
   }
   @keyframes bgcolor {
     0% {
-        background-color: lavenderblush
+        background-color: rgb(12, 11, 11)
     }
 
     30% {
-        background-color: lemonchiffon
+        background-color: rgb(229, 207, 13)
     }
 
     60% {
-        background-color: lightseagreen
+        background-color: rgb(21, 42, 41)
     }
 
     90% {
-        background-color: lightsalmon
+        background-color: rgb(255,0,0)
     }
 
     100% {
-        background-color: lightskyblue
+        background-color: rgb(75, 116, 142)
     }
 }
 
