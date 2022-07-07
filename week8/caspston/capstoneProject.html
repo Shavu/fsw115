@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./capstoneProject..css">
+    <title>Capstone Project</title>
+</head>
+<body>
+<div class="mainDiv">
+    <div class="containerGrid">
+        <div class="container">
+            <form name="requestForm">
+                <h1>To Do List</h1>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter Name" required><br>
+                </div>
+                <div class="form-group">
+                    <label for="price">Price:</label>
+                    <input type="number" id="price" name="price" class="form-control" placeholder="Price" required><br>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description:</label><br>
+                    <textarea name="description" id="description" class="form-control" cols="50" rows="4" placeholder="Description" required></textarea><br>
+                </div>
+                <button id="makeRequest">POST</button>
+            </form>
+        </div>
+    
+        <div class="listContainer">
+            <ul id="oList">
+            </ul>
+        </div>
+    </div>
+    
+        <div class='queryWrapper'>
+            <h1 style="text-align: center;" id="title">Star Wars Data finder</h1>
+            <div class="dataInput">
+            <div class="querySelect">
+                <div>Query Type:</div>
+                <select id='queryType'>
+                    <option value='people'>People</option>
+                    <option value='planets'>Planets</option>
+                    <option value='starships'>Starships</option>
+                </select>
+            </div>
+            <div class="item">
+                <div>Item Number:</div>
+                <div>
+                    <input type="number" style='width:25px' id='itemID' />
+                </div>
+            </div>
+            </div>
+            <div>
+                <button id='fetchButton' onclick="fetchData()">Fetch Data</button>
+            </div>
+            <div id='ResponseData' class='dataWrapper'>
+                <div class='dataCellLabel' id='dataLabel1'></div>
+                <div class='dataCell' id='dataValue1'></div>
+                <div class='dataCellLabel' id='dataLabel2'></div>
+                <div class='dataCell' id='dataValue2'></div>
+            </div>
+        </div>
+        <div class='footer'>
+            <a href='https://swapi.dev/api/' target='_new'>Data courtesy of Star War API</a>
+        </div>
+        
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.23.0/axios.min.js"></script>
+    <script type="text/javascript" src="./capstoneProject..js"></script>
+</body>
+</html>
