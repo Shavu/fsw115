@@ -5,9 +5,16 @@
 }
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-family: sans-serif;
+    background-image: url(./photos/cade-roberts-EpIUbeFrqwQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(13, 3, 2);
+    margin-top: 8rem;
+    font-family:'Times New Roman', Times, serif;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:10px;
 }
 .mainDiv{
     grid-template-columns: 1fr, 1fr;
